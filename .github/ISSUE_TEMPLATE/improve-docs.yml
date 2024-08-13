@@ -1,28 +1,40 @@
 name: Improve the docs
 description: Suggest an improvement to the content in an existing docs topic.
-labels: ["documentation"]
 body:
+
+# Contributing info
+  - type: markdown
+    attributes:
+      value: "## About contributing to the docs"
   - type: markdown
     attributes:
       value: |
-        :information_source: **Tip:** IBMers, don't use this repo to report issues. View the topic in the internal IBM Cloud docs staging site and open a doc issue from there.
+        **IBMers**, *don't use this repo to report issues. View the topic in the internal IBM Cloud docs staging site and open a doc issue from there.*
+
+        Thanks for taking the time to contribute to the IBM Cloud docs.
+
+        If your comments are about a technical issue with an IBM Cloud product, create an issue instead at IBM Cloud Support or one of the communities. Here's how:
+        - If you're logged in to IBM Cloud, go directly to the [Support center](https://cloud.ibm.com/unifiedsupport/supportcenter) to review your product topics and featured FAQs, open or manage a support case, or search community content.
+        - If you can't log in, go to the [IBM Cloud Support](https://www.ibm.com/cloud/support) page and review the no-charge support community options.
 
 # The issue details
+  - type: markdown
+    attributes:
+      value: "## Request details"
   - type: textarea
     attributes:
-      label: Which topic on are you reporting about?
-      description: Please link to the topic that you think needs an update.
+      label: Which topic are you reporting about?
+      description: Include a link to the docs topic in IBM Cloud.
       placeholder: https://cloud.ibm.com/docs/ ...
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: What parts of the topic do you thin needs to be updated?
+      label: What do you think needs to be updated?
       description: |
-        - Give as much detail as you can to help us understand the change you want to see.
-        - Why should the docs be changed? What use cases does it support?
-        - What is the expected outcome or behavior?
+        - Is something wrong or unclear? Provide information about what you see and what you *expect* to see.
+        - Is something missing? Provide as much detail as you can to help us understand the change that you want to see.
     validations:
       required: true
 
