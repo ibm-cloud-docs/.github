@@ -1,0 +1,39 @@
+name: Improve the docs
+description: Suggest an improvement to the content in an existing docs topic.
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        :information_source: **Tip:** IBMers, don't use this repo to report issues. View the topic in the internal IBM Cloud docs staging site and open a doc issue from there.
+
+# The issue details
+  - type: textarea
+    attributes:
+      label: Which topic on are you reporting about?
+      description: Please link to the topic that you think needs an update.
+      placeholder: https://cloud.ibm.com/docs/ ...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: What parts of the topic do you thin needs to be updated?
+      description: |
+        - Give as much detail as you can to help us understand the change you want to see.
+        - Why should the docs be changed? What use cases does it support?
+        - What is the expected outcome or behavior?
+    validations:
+      required: true
+
+# Additional info
+  - type: markdown
+    attributes:
+      value: "## Additional information"
+  - type: textarea
+    id: other-info
+    attributes:
+      label: Anything else?
+      description: If you have more information or screenshots that you think we need, add them here.
+    validations:
+      required: false
