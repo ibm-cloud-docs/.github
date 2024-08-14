@@ -2,13 +2,9 @@ Thanks for taking the time to contribute to the IBM Cloud docs! After you open y
 
 We don't merge changes directly in this repository because content is not published from here. However, we'll incorporate any changes in our upstream repository so that they're reflected in the docs.
 
-### What does this pull request do?
+### Description
 
 <!--- Replace this text with a summary of the changes in this pull request. Include why the changes are needed and context about the changes. --->
-
-### Can this pull request close any open GitHub issues?
-
-<!--- If there is a GitHub issue for the changes, link to it. --->
 
 ###  Any other comments?
 
