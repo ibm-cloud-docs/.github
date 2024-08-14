@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: IBM Cloud Support
+    url: https://www.ibm.com/cloud/support
+    about: Get the help you need from IBM Cloud.
